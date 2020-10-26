@@ -1,0 +1,21 @@
+
+#include <stdio.h>
+
+int main(){
+	int i,flag=0,n,data;
+
+	scanf("%d", &n);
+	
+
+	for(i=0; i<n; i++){
+	    scanf("%d", &data);
+	if(i==n-1&&data%10==0)
+	flag=1;
+	}
+   if(flag==1)
+    printf("Yes");
+    else
+    printf("No");
+    
+    return 0;
+}
